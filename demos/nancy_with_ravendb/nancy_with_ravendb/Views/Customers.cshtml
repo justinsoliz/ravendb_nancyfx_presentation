@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Customers from RavenDB</title>
+</head>
+<body>
+    <h1>Customers from RavenDB in Razor!</h1>
+    @foreach (var customer in Model)
+    {
+        <p>
+            @customer.Name, 
+            @customer.Homestate
+        </p>
+    }
+</body>
+</html>

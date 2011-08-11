@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using Raven.Client;
 using Raven.Client.Document;
+using Raven.Client.Extensions;
 
 namespace nancy_with_ravendb
 {
@@ -26,12 +27,14 @@ namespace nancy_with_ravendb
                 ConnectionStringName = "RavenDB"
             }.Initialize();
 
+            documentStore.DatabaseCommands.EnsureDatabaseExists("Customers");
+
             return documentStore;
         }
 
         public IDocumentSession GetSession()
         {
-            return DocumentStore.OpenSession();
+            return DocumentStore.OpenSession("Customers");
         }
     }
 }

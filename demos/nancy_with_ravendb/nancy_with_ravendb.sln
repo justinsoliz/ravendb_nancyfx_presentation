@@ -3,16 +3,50 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nancy_with_ravendb", "nancy_with_ravendb\nancy_with_ravendb.csproj", "{9799A979-CE98-4B42-AAC7-27536216250E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{C27605BF-2519-4509-AC6E-01840C976740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks", "Tasks\Tasks.csproj", "{F49939BE-F357-45E3-920E-51265ACAB7AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9799A979-CE98-4B42-AAC7-27536216250E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9799A979-CE98-4B42-AAC7-27536216250E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9799A979-CE98-4B42-AAC7-27536216250E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9799A979-CE98-4B42-AAC7-27536216250E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9799A979-CE98-4B42-AAC7-27536216250E}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{9799A979-CE98-4B42-AAC7-27536216250E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9799A979-CE98-4B42-AAC7-27536216250E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9799A979-CE98-4B42-AAC7-27536216250E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9799A979-CE98-4B42-AAC7-27536216250E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9799A979-CE98-4B42-AAC7-27536216250E}.Release|x86.ActiveCfg = Release|Any CPU
+		{C27605BF-2519-4509-AC6E-01840C976740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27605BF-2519-4509-AC6E-01840C976740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27605BF-2519-4509-AC6E-01840C976740}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C27605BF-2519-4509-AC6E-01840C976740}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C27605BF-2519-4509-AC6E-01840C976740}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C27605BF-2519-4509-AC6E-01840C976740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27605BF-2519-4509-AC6E-01840C976740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27605BF-2519-4509-AC6E-01840C976740}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C27605BF-2519-4509-AC6E-01840C976740}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C27605BF-2519-4509-AC6E-01840C976740}.Release|x86.ActiveCfg = Release|Any CPU
+		{F49939BE-F357-45E3-920E-51265ACAB7AC}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F49939BE-F357-45E3-920E-51265ACAB7AC}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{F49939BE-F357-45E3-920E-51265ACAB7AC}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{F49939BE-F357-45E3-920E-51265ACAB7AC}.Debug|x86.ActiveCfg = Debug|x86
+		{F49939BE-F357-45E3-920E-51265ACAB7AC}.Debug|x86.Build.0 = Debug|x86
+		{F49939BE-F357-45E3-920E-51265ACAB7AC}.Release|Any CPU.ActiveCfg = Release|x86
+		{F49939BE-F357-45E3-920E-51265ACAB7AC}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{F49939BE-F357-45E3-920E-51265ACAB7AC}.Release|Mixed Platforms.Build.0 = Release|x86
+		{F49939BE-F357-45E3-920E-51265ACAB7AC}.Release|x86.ActiveCfg = Release|x86
+		{F49939BE-F357-45E3-920E-51265ACAB7AC}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
