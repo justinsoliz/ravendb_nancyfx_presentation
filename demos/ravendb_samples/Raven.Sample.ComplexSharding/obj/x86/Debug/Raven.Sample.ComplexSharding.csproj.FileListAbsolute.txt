@@ -1,1 +1,0 @@
-C:\NashDotNet\demos\Samples\Raven.Sample.ComplexSharding\bin\Debug\Raven.Sample.ComplexSharding.exe.config

@@ -1,1 +1,0 @@
-C:\Dev\Library\Asp.Net\Nancy\src\Nancy.Demo.Hosting.Aspnet\obj\Debug\ResolveAssemblyReference.cache

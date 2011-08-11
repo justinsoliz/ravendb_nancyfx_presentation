@@ -1,0 +1,12 @@
+*ReSharper.user
+_ReSharper.*/
+[Aa]ssets/
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.sln.cache
+*.log
+*.bak
